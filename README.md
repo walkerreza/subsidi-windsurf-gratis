@@ -25,7 +25,19 @@ Repo ini berisi beberapa tools keren yang bisa kamu gunakan di Ubuntu:
 
 ## 🚀 Cara Penggunaan
 
-### Metode Paling Mudah (Recommended)
+### Download & Install dengan Curl (Super Cepat!)
+
+Cukup jalankan satu perintah ini di terminal Ubuntu:
+```bash
+curl -s https://raw.githubusercontent.com/username/subsidi/main/install.sh | bash
+```
+
+Command di atas akan otomatis:
+- Download semua file yang diperlukan
+- Setup permission yang benar
+- Menjalankan installer
+
+### Metode Alternatif (Manual Clone)
 
 1. Clone repository ini ke Ubuntu kamu
    ```bash
