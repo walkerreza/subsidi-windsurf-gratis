@@ -9,11 +9,16 @@ echo "🔴⚪ BERSATU KITA TEGUH, BERCERAI KITA RUNTUH ⚪🔴"
 echo ""
 echo "[+] Memulai download tools..."
 
-# Buat direktori subsidi jika belum ada
-mkdir -p ~/subsidi
-cd ~/subsidi
+# Buat direktori subsidi-windsurf jika belum ada
+SUBSIDI_DIR="$HOME/subsidi-windsurf"
+echo "[+] Membuat direktori: $SUBSIDI_DIR"
+mkdir -p "$SUBSIDI_DIR"
+cd "$SUBSIDI_DIR" || { echo "[!] Gagal masuk ke direktori $SUBSIDI_DIR. Mencoba direktori Downloads..."; SUBSIDI_DIR="$HOME/Downloads/subsidi-windsurf"; mkdir -p "$SUBSIDI_DIR"; cd "$SUBSIDI_DIR" || { echo "[!] ERROR: Tidak bisa membuat direktori. Menggunakan direktori saat ini."; SUBSIDI_DIR="$(pwd)"; }; }
 
 # Download semua file yang dibutuhkan dari GitHub
+echo ""  # Baris kosong
+echo "[+] Menyimpan file ke direktori: $SUBSIDI_DIR"
+echo ""  # Baris kosong
 echo "[+] Downloading ubuntu_reset.py..."
 curl -s -O https://raw.githubusercontent.com/walkerreza/subsidi-windsurf-gratis/main/ubuntu_reset.py
 
@@ -34,7 +39,24 @@ echo "[+] Memberikan permission executable..."
 chmod +x *.py installer.sh
 
 echo ""
-echo "✅ Download selesai! Semua file telah tersimpan di ~/subsidi"
+# Cek apakah file berhasil didownload
+echo ""  # Baris kosong
+echo "[+] Memverifikasi file yang didownload..."
+MISSING_FILES=""
+for file in ubuntu_reset.py requirement.py menu.py setup.py installer.sh; do
+    if [ ! -f "$file" ]; then
+        MISSING_FILES="$MISSING_FILES $file"
+    fi
+done
+
+if [ -z "$MISSING_FILES" ]; then
+    echo "\n✅ Download berhasil! Semua file telah tersimpan di: $SUBSIDI_DIR"
+    ls -la
+else
+    echo "\n⚠️ Beberapa file tidak berhasil didownload:$MISSING_FILES"
+    echo "\nFile yang ada di direktori $SUBSIDI_DIR:"
+    ls -la
+fi
 
 # Tanya user apakah ingin menjalankan setup
 echo ""
