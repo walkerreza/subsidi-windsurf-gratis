@@ -15,19 +15,19 @@ cd ~/subsidi
 
 # Download semua file yang dibutuhkan dari GitHub
 echo "[+] Downloading ubuntu_reset.py..."
-curl -s -O https://raw.githubusercontent.com/walkerreza/subsidi/main/ubuntu_reset.py
+curl -s -O https://raw.githubusercontent.com/walkerreza/subsidi-windsurf-gratis/main/ubuntu_reset.py
 
 echo "[+] Downloading requirement.py..."
-curl -s -O https://raw.githubusercontent.com/walkerreza/subsidi/main/requirement.py
+curl -s -O https://raw.githubusercontent.com/walkerreza/subsidi-windsurf-gratis/main/requirement.py
 
 echo "[+] Downloading menu.py..."
-curl -s -O https://raw.githubusercontent.com/walkerreza/subsidi/main/menu.py
+curl -s -O https://raw.githubusercontent.com/walkerreza/subsidi-windsurf-gratis/main/menu.py
 
 echo "[+] Downloading setup.py..."
-curl -s -O https://raw.githubusercontent.com/walkerreza/subsidi/main/setup.py
+curl -s -O https://raw.githubusercontent.com/walkerreza/subsidi-windsurf-gratis/main/setup.py
 
 echo "[+] Downloading installer.sh..."
-curl -s -O https://raw.githubusercontent.com/walkerreza/subsidi/main/installer.sh
+curl -s -O https://raw.githubusercontent.com/walkerreza/subsidi-windsurf-gratis/main/installer.sh
 
 # Berikan permission executable
 echo "[+] Memberikan permission executable..."
