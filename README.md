@@ -29,7 +29,7 @@ Repo ini berisi beberapa tools keren yang bisa kamu gunakan di Ubuntu:
 
 Cukup jalankan satu perintah ini di terminal Ubuntu:
 ```bash
-curl -s https://raw.githubusercontent.com/username/subsidi/main/install.sh | bash
+curl -s https://raw.githubusercontent.com/walkerreza/subsidi/main/install.sh | bash
 ```
 
 Command di atas akan otomatis:
@@ -41,7 +41,7 @@ Command di atas akan otomatis:
 
 1. Clone repository ini ke Ubuntu kamu
    ```bash
-   git clone https://github.com/username/subsidi.git
+   git clone https://github.com/walkerreza/subsidi.git
    cd subsidi
    ```
 
@@ -61,7 +61,7 @@ Command di atas akan otomatis:
 
 1. Clone repository
    ```bash
-   git clone https://github.com/username/subsidi.git
+   git clone https://github.com/walkerreza/subsidi.git
    cd subsidi
    ```
 
