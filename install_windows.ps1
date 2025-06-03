@@ -67,7 +67,7 @@ foreach ($file in $files.Keys) {
 Write-Host "`n[+] Memverifikasi file yang didownload..." -ForegroundColor Yellow
 
 if ($missingFiles.Count -eq 0) {
-    Write-Host "`n✅ Download berhasil! Semua file telah tersimpan di: $subsidiDir" -ForegroundColor Green
+    Write-Host "`n✅ Download berhasil! Semua file telah tersimpan di: ${subsidiDir}" -ForegroundColor Green
     Get-ChildItem -Path $subsidiDir
 }
 else {
@@ -75,7 +75,7 @@ else {
     foreach ($file in $missingFiles) {
         Write-Host "    - $file" -ForegroundColor Red
     }
-    Write-Host "`nFile yang ada di direktori $subsidiDir:" -ForegroundColor Yellow
+    Write-Host "`nFile yang ada di direktori ${subsidiDir}:" -ForegroundColor Yellow
     Get-ChildItem -Path $subsidiDir
 }
 
