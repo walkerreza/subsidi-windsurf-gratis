@@ -1,8 +1,12 @@
-# Ubuntu Subsidi Tools 🚀
+# 🦅 PEMERINTAH KABUPATEN BLITAR 🇮🇩
 
-Kumpulan tools praktis untuk membantu kamu dalam menyiapkan Ubuntu dengan cepat dan mudah! 💻
+## SISTEM INFORMASI SUBSIDI TEPAT GUNA
 
-## 🌟 Fitur
+![Garuda Pancasila](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/National_emblem_of_Indonesia_Garuda_Pancasila.svg/220px-National_emblem_of_Indonesia_Garuda_Pancasila.svg.png)
+
+🔴⚪ BERSATU KITA TEGUH, BERCERAI KITA RUNTUH ⚪🔴
+
+## 🌟 Fitur Utama
 
 Repo ini berisi beberapa tools keren yang bisa kamu gunakan di Ubuntu:
 
@@ -71,10 +75,12 @@ Repo ini berisi beberapa tools keren yang bisa kamu gunakan di Ubuntu:
 - Akses internet untuk instalasi paket
 - Akses sudo (untuk beberapa fitur)
 
-## 📜 License
+## 📜 Hak Cipta & Lisensi
 
-MIT
+Hak Cipta © 2025 Reza Walker
 
 ---
 
-Dibuat dengan ❤️ untuk membuat hidup lebih mudah dengan Ubuntu!
+🇮🇩 Dibuat dengan ❤️ untuk Indonesia 🇮🇩
+
+
