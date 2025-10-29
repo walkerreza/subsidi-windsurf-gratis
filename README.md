@@ -87,8 +87,8 @@ Command di atas akan otomatis:
 
 
 ## UPDATE : 
--after you enter with your reset account dont forget to click "copy api key"
--wait 1 day after reseting the account (saran 1-3 akun)
+- after you enter with your reset account dont forget to click "copy api key"
+- wait 1 day after reseting the account (saran 1-3 akun)
 
 
 ## 📜 Hak Cipta & Lisensi
