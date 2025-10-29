@@ -1,10 +1,8 @@
-# 🦅 PEMERINTAH KABUPATEN BLITAR 🇮🇩
+# 🦅 🇮🇩
 
-## SISTEM INFORMASI SUBSIDI TEPAT GUNA
+## Subsidi windsurf terbaru 
 
-![Garuda Pancasila](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/National_emblem_of_Indonesia_Garuda_Pancasila.svg/220px-National_emblem_of_Indonesia_Garuda_Pancasila.svg.png)
 
-🔴⚪ BERSATU KITA TEGUH, BERCERAI KITA RUNTUH ⚪🔴
 
 ## 🌟 Fitur Utama
 
@@ -86,6 +84,12 @@ Command di atas akan otomatis:
 - Python 3.6 atau lebih baru
 - Akses internet untuk instalasi paket
 - Akses sudo (untuk beberapa fitur)
+
+
+## UPDATE : 
+-after you enter with your reset account dont forget to click "copy api key"
+-wait 1 day after reseting the account (saran 1-3 akun)
+
 
 ## 📜 Hak Cipta & Lisensi
 
